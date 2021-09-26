@@ -1,0 +1,24 @@
+/** SINTAXE SELECT
+SELECT coluna1, coluna2
+FROM tabela;
+
+OU
+
+SELECT * FROM tabela; **/
+
+/*SELECT *
+FROM person.Person;
+
+SELECT Title
+FROM person.Person;
+
+SELECT *
+FROM person.EmailAddress;*/
+
+/* DESAFIO 1 */
+
+/******** A EQUIPE DE MARKETING PRECISA DE FAZER UMA PESQUISA SOBRE NOMES MAIS COMUNS DE SEUS CLIENTES
+E PRECISA DO NOME E SOBRENOME DE TODOS OS CLIENTES QUE ESTÃO CADASTRADOS NO SISTEMA ********/
+
+SELECT FirstName, LastName
+FROM person.Person;
